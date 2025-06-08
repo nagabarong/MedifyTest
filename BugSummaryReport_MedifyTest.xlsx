@@ -1,0 +1,5 @@
+DEFECT ID, MODULE NAME, RELEASE VERSION, SUMMARY, DESCRIPTION, STEPS TO REPRODUCE, EXPECTED RESULT, ACTUAL RESULT, DEFECT SEVERITY, DEFECT PRIORITY, ASSIGNED TO, STATUS
+
+1, Authentication, 1.0, Logout dropdown tidak muncul, Dropdown logout tidak bisa diklik pada proses logout otomatis, 1. Login sebagai user; 2. Klik/hover menu user; 3. Klik Logout, User dapat logout dengan klik menu, Logout button tidak muncul/visible, Major, High, -, Open
+2, Authentication, 1.0, Validasi form hanya HTML5, Validasi form hanya mengandalkan HTML5, tidak ada feedback custom, 1. Buka halaman login; 2. Kosongkan/memasukkan data tidak valid; 3. Submit form, Muncul pesan error custom dari aplikasi, Hanya muncul error browser standar, Minor, Medium, -, Open
+3, Authentication, 1.0, Fitur Remember Me tidak bisa diuji, Tidak bisa memastikan Remember Me karena logout gagal, 1. Login dengan Remember Me; 2. Restart browser; 3. Coba logout, User tetap login setelah restart, bisa logout, Tidak bisa logout, test gagal, Major, High, -, Open 

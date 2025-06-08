@@ -1,0 +1,4 @@
+No,Bug Description,Gejala/Error,Dampak
+1,Logout Dropdown Tidak Muncul/Logout Tidak Bisa Diklik,"Pada test logout, Playwright gagal klik tombol Logout karena elemen tidak visible.","User tidak bisa logout dengan cara biasa, UX dropdown bermasalah."
+2,Validasi Form Hanya Mengandalkan HTML5,"Validasi form hanya mengandalkan validasi HTML5, bukan feedback custom aplikasi.","User hanya mendapat feedback browser standar, tidak ada pesan error custom."
+3,Fitur "Remember Me" Tidak Bisa Diuji Sempurna,"Test untuk memastikan user tetap login setelah browser restart tidak bisa selesai karena bug pada proses logout.","Tidak bisa memastikan fitur "Remember Me" benar-benar berjalan." 
